@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Gilroybold';
+    src: url(../dist/font-family/Radomir_Tinkov_-_Gilroy-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: 'Gilroylight';
+    src: url(../dist/font-family/Radomir_Tinkov_-_Gilroy-Light.otf);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    transition: 200ms;
+}
+
+.bg {
+    background-image: url(../dist/image/hro-bg.png);
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gradint-bttn {
+    border: 1px solid transparent;
+    transition: 300ms ease-in-out;
+    border-radius: 59px;
+    background: linear-gradient(134deg, #FF2801 -0.47%, #FF6500 90.6%), linear-gradient(96deg, #0075FF 1.34%, #00F 107.5%);
+}
+
+.gradint-bttn:hover {
+    border: 1px solid white;
+    background: #000;
+}
+
+.prev-btn:hover svg circle {
+    fill: #FF3d01;
+}
+
+.prev-btn:hover svg path {
+    fill: white;
+}
+
+.next-btn:hover svg circle {
+    fill: #FF3d01;
+}
+
+.next-btn:hover svg path {
+    fill: white;
+}
+
+.icon:hover svg circle {
+    fill: black;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.slider3::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 8000px !important;
+    height: 1000px !important;
+    right: 98% !important;
+    background-color: #FAF8ED !important;
+    box-shadow: none !important;
+    background-color: white !important;
+}
