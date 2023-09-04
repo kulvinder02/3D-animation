@@ -17,7 +17,7 @@
 }
 
 .bg {
-    background-image: url(../dist/image/hro-bg.png);
+    background-image: url(./image/hro-bg.png);
     background-position: center;
     height: 100vh;
     background-repeat: no-repeat;
