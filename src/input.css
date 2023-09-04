@@ -59,7 +59,6 @@
 body {
     scroll-behavior: smooth;
 }
-
 .slider3::after {
     content: ' ';
     position: absolute;
